@@ -14,9 +14,9 @@ The verb is **"decide whether an independent replication reproduces a claimed re
 scoring a debate or ranking entries; it is a one-shot reproducibility audit of one study against one
 replication report.
 
-- **Contract (Bradbury, chain 4221):** `DEPLOY_PENDING`
+- **Contract (Bradbury, chain 4221):** `0x72552ac133f7Df727C263e5FF5aE82624C93F9C6`
 - **Deployed from:** `rivale`
-- **Explorer:** https://explorer-bradbury.genlayer.com/contract/DEPLOY_PENDING
+- **Explorer:** https://explorer-bradbury.genlayer.com/contract/0x72552ac133f7Df727C263e5FF5aE82624C93F9C6
 
 ---
 
@@ -77,4 +77,4 @@ asserts the `open → assessed` transition and that the finalized `outcome` is w
 genlayer deploy --contract contracts/replic_audit.py
 ```
 
-The deployed address replaces `DEPLOY_PENDING` in `.env.example` and above.
+The deployed address replaces `0x72552ac133f7Df727C263e5FF5aE82624C93F9C6` in `.env.example` and above.
